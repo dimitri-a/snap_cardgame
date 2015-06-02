@@ -1,0 +1,64 @@
+.spade { background-position: 5px 0px; }
+.heart { background-position: -50px 0px; }
+.diamond { background-position: 5px -50px; }
+.club { background-position: -50px -50px; }
+
+.spade, .heart, .diamond, .club {
+  height: 50px; width: 50px;
+  background-image: url('../images/French_suits.svg');
+  background-repeat : no-repeat;
+  overflow          : hidden;
+  background-size: 100px auto;
+}
+
+.noturn
+{
+  width: 100px;
+  height:200px;
+  border-radius: 25px;
+  background-color: red;
+  float:left;
+  padding:10px;
+  margin-right: 24px;
+}
+
+.turn
+{
+  width: 100px;
+  height:200px;
+  border-radius: 25px;
+  background-color: green;
+  float:left;
+  border:solid greenyellow thick;
+  padding:10px;
+  margin-right: 20px;
+}
+
+.centre
+{
+  width: 100px;
+  height:200px;
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: white;
+  float:left;
+  padding:10px;
+  margin-right: 20px;
+}
+
+img{
+  margin:30px;
+}
+
+#game-table{
+  width:33%;
+  margin:auto;
+}
+
+#game-controls {
+  clear:both;
+  width: 25%;
+  margin: auto;
+  padding: 10px;
+  text-align:center;
+}
